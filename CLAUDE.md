@@ -74,7 +74,7 @@ MLOps:
 | Phase | What | Status |
 |-------|------|--------|
 | 1 | FastAPI + ML models (local, no Docker) | DONE |
-| 2 | Postgres persistence | NOT STARTED |
+| 2 | Postgres persistence | DONE |
 | 3 | Redis caching + Gemini LLM advisor | NOT STARTED |
 | 4 | Docker Compose (backend + postgres + redis) | NOT STARTED |
 | 5 | Streamlit frontend | NOT STARTED |

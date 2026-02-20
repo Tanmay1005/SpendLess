@@ -7,7 +7,9 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
+from app.services.cache import close_cache, init_cache
 from app.services.db import close_db, init_db
+from app.services.gemini import init_gemini
 
 logger = logging.getLogger("spendlens")
 
@@ -50,7 +52,10 @@ async def lifespan(app: FastAPI):
     logger.info("Starting SpendLens backend...")
     load_models()
     await init_db()
+    await init_cache()
+    init_gemini()
     yield
+    await close_cache()
     await close_db()
     logger.info("Shutting down SpendLens backend...")
 
@@ -70,9 +75,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-from app.routers import anomalies, categorize, health, upload
+from app.routers import advice, anomalies, categorize, health, upload
 
 app.include_router(health.router)
 app.include_router(upload.router)
 app.include_router(categorize.router)
 app.include_router(anomalies.router)
+app.include_router(advice.router)

@@ -3,6 +3,7 @@ import pandas as pd
 from fastapi import APIRouter, HTTPException
 
 from app.schemas.transactions import CategorizeResponse, CategoryResult
+from app.services.cache import cache_invalidate
 from app.services.db import get_pool
 from app.utils.preprocessing import extract_features
 
@@ -59,6 +60,9 @@ async def categorize_transactions():
                 category=category,
                 confidence=round(confidence, 4),
             ))
+
+    # Invalidate advice cache since categories changed
+    await cache_invalidate("spendlens:advice:*")
 
     return CategorizeResponse(
         message=f"Categorized {len(results)} transactions",

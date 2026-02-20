@@ -3,6 +3,7 @@ import pandas as pd
 from fastapi import APIRouter, HTTPException
 
 from app.schemas.transactions import AnomalyResponse, AnomalyResult
+from app.services.cache import cache_invalidate
 from app.services.db import get_pool
 
 router = APIRouter(tags=["ml"])
@@ -76,6 +77,9 @@ async def detect_anomalies():
                     is_anomaly=True,
                     z_score=round(float(z_scores[i]), 4),
                 ))
+
+    # Invalidate advice cache since anomaly data changed
+    await cache_invalidate("spendlens:advice:*")
 
     return AnomalyResponse(
         message=f"Found {len(results)} anomalies out of {len(rows)} transactions",
