@@ -1,0 +1,501 @@
+date,description,amount,merchant
+2026-02-19 18:11:54,supplies from Target,80.54,Target
+2026-02-19 18:12:07,phone payment Verizon,71.81,Verizon
+2026-02-19 18:14:02,online order from Walmart,91.17,Walmart
+2026-02-19 18:12:14,monthly subscription Hulu,16.55,Hulu
+2026-02-19 18:17:00,utility payment Verizon,36.64,Verizon
+2026-02-19 18:11:49,monthly bill AT&T,11.69,AT&T
+2026-02-19 18:14:49,insurance premium PG&E,14.18,PG&E
+2026-02-19 18:13:35,electronics from Best Buy,7.71,Best Buy
+2026-02-19 18:16:42,parking at Uber,29.61,Uber
+2026-02-19 18:12:33,game purchase AMC Theatres,16.62,AMC Theatres
+2026-02-19 18:13:37,parking at Chevron,219.05,Chevron
+2026-02-19 18:13:36,groceries at Trader Joe's,34.06,Trader Joe's
+2026-02-19 18:13:04,direct deposit Freelance Client,-2729.71,Freelance Client
+2026-02-19 18:11:36,toll payment Shell,29.96,Shell
+2026-02-19 18:14:13,eye exam at Dental Office,123.91,Dental Office
+2026-02-19 18:12:07,monthly subscription Netflix,92.51,Netflix
+2026-02-19 18:15:11,freelance payment Freelance Client,-1707.27,Freelance Client
+2026-02-19 18:12:01,prescription at Dental Office,13.96,Dental Office
+2026-02-19 18:13:29,utility payment Verizon,18.5,Verizon
+2026-02-19 18:14:17,internet service Verizon,20.32,Verizon
+2026-02-19 18:17:01,clothing from Best Buy,34.34,Best Buy
+2026-02-19 18:12:09,monthly bill PG&E,27.48,PG&E
+2026-02-19 18:12:27,lunch at Starbucks,30.95,Starbucks
+2026-02-19 18:16:20,movie night Hulu,36.54,Hulu
+2026-02-19 18:11:43,groceries at Trader Joe's,117.54,Trader Joe's
+2026-02-19 18:17:04,donation to Wire Transfer,17.65,Wire Transfer
+2026-02-19 18:15:02,lunch at Trader Joe's,25.74,Trader Joe's
+2026-02-19 18:13:11,ride to work Shell,13.89,Shell
+2026-02-19 18:16:37,monthly bill Verizon,11.03,Verizon
+2026-02-19 18:16:12,gas fillup at Chevron,28.72,Chevron
+2026-02-19 18:13:39,utility payment State Farm,42.14,State Farm
+2026-02-19 18:16:24,concert tickets Spotify,40.53,Spotify
+2026-02-19 18:12:50,internet service Verizon,39.83,Verizon
+2026-02-19 18:15:15,flight booking Chevron,54.53,Chevron
+2026-02-19 18:14:45,movie night Spotify,130.81,Spotify
+2026-02-19 18:16:27,internet service PG&E,49.66,PG&E
+2026-02-19 18:13:29,electronics from Target,76.33,Target
+2026-02-19 18:13:59,lunch at Whole Foods,22.52,Whole Foods
+2026-02-19 18:16:12,bonus payment Side Gig Co,-1835.87,Side Gig Co
+2026-02-19 18:14:40,transfer received Freelance Client,-2558.35,Freelance Client
+2026-02-19 18:15:42,dental checkup at Walgreens,9.66,Walgreens
+2026-02-19 18:15:25,concert tickets Steam,21.76,Steam
+2026-02-19 18:15:35,gas fillup at Lyft,31.75,Lyft
+2026-02-19 18:16:56,phone payment AT&T,10.97,AT&T
+2026-02-19 18:14:31,movie night Steam,17.14,Steam
+2026-02-19 18:15:36,phone payment State Farm,36.75,State Farm
+2026-02-19 18:13:50,transfer received Side Gig Co,-3083.29,Side Gig Co
+2026-02-19 18:11:47,eye exam at Kaiser,40.57,Kaiser
+2026-02-19 18:16:07,salary deposit Side Gig Co,-1122.87,Side Gig Co
+2026-02-19 18:12:41,monthly subscription Hulu,41.55,Hulu
+2026-02-19 18:16:31,gas fillup at Uber,59.91,Uber
+2026-02-19 18:17:04,phone payment AT&T,35.55,AT&T
+2026-02-19 18:15:32,game purchase AMC Theatres,16.52,AMC Theatres
+2026-02-19 18:12:37,clothing from Nike,225.59,Nike
+2026-02-19 18:13:37,electronics from Walmart,36.63,Walmart
+2026-02-19 18:13:56,dental checkup at Dental Office,19.96,Dental Office
+2026-02-19 18:12:02,dinner at Starbucks,14.39,Starbucks
+2026-02-19 18:14:20,clothing from Target,11.69,Target
+2026-02-19 18:15:02,supplies from Amazon,38.16,Amazon
+2026-02-19 18:13:36,gas fillup at Shell,32.33,Shell
+2026-02-19 18:12:44,supplies from Target,28.01,Target
+2026-02-19 18:12:07,pharmacy at Eye Center,25.56,Eye Center
+2026-02-19 18:15:22,monthly subscription Spotify,259.15,Spotify
+2026-02-19 18:11:40,takeout from Starbucks,97.33,Starbucks
+2026-02-19 18:13:42,lunch at Chipotle,80.18,Chipotle
+2026-02-19 18:12:58,pharmacy at CVS Pharmacy,20.74,CVS Pharmacy
+2026-02-19 18:14:47,concert tickets Netflix,38.39,Netflix
+2026-02-19 18:15:56,home goods at Target,67.79,Target
+2026-02-19 18:17:03,bonus payment Direct Deposit,-2211.42,Direct Deposit
+2026-02-19 18:15:25,monthly bill AT&T,150.77,AT&T
+2026-02-19 18:17:33,streaming service Netflix,80.16,Netflix
+2026-02-19 18:17:23,concert tickets Spotify,30.63,Spotify
+2026-02-19 18:15:22,phone payment State Farm,11.97,State Farm
+2026-02-19 18:13:00,toll payment Chevron,47.39,Chevron
+2026-02-19 18:14:30,miscellaneous charge Government Fee,73.64,Government Fee
+2026-02-19 18:12:39,electronics from Nike,45.28,Nike
+2026-02-19 18:17:33,wire transfer Local Shop,57.59,Local Shop
+2026-02-19 18:14:16,electronics from Target,41.79,Target
+2026-02-19 18:16:06,groceries at Chipotle,41.42,Chipotle
+2026-02-19 18:11:51,lunch at McDonald's,6.89,McDonald's
+2026-02-19 18:12:24,flight booking Shell,70.61,Shell
+2026-02-19 18:12:45,game purchase Spotify,28.06,Spotify
+2026-02-19 18:13:08,transfer received Employer Inc,-504.07,Employer Inc
+2026-02-19 18:13:42,direct deposit Side Gig Co,-3338.68,Side Gig Co
+2026-02-19 18:13:13,flight booking Uber,29.98,Uber
+2026-02-19 18:14:12,direct deposit Side Gig Co,-2615.01,Side Gig Co
+2026-02-19 18:14:07,dinner at Whole Foods,262.79,Whole Foods
+2026-02-19 18:12:15,pharmacy at Eye Center,58.5,Eye Center
+2026-02-19 18:11:58,concert tickets Steam,11.51,Steam
+2026-02-19 18:13:43,bonus payment PayPal Transfer,-2653.57,PayPal Transfer
+2026-02-19 18:12:07,ride to work Delta Airlines,19.38,Delta Airlines
+2026-02-19 18:14:11,game purchase Steam,40.18,Steam
+2026-02-19 18:11:39,pharmacy at Walgreens,2.16,Walgreens
+2026-02-19 18:14:48,electronics from Target,211.31,Target
+2026-02-19 18:12:02,takeout from Chipotle,87.5,Chipotle
+2026-02-19 18:15:45,clothing from Nike,37.43,Nike
+2026-02-19 18:14:01,clothing from Amazon,17.58,Amazon
+2026-02-19 18:17:30,online order from Walmart,10.29,Walmart
+2026-02-19 18:13:10,electronics from Nike,47.13,Nike
+2026-02-19 18:14:26,eye exam at Dental Office,27.53,Dental Office
+2026-02-19 18:16:06,insurance premium Comcast,26.86,Comcast
+2026-02-19 18:13:36,game purchase Steam,4.27,Steam
+2026-02-19 18:13:41,coffee from McDonald's,51.04,McDonald's
+2026-02-19 18:15:26,takeout from McDonald's,17.22,McDonald's
+2026-02-19 18:17:25,ride to work Uber,11.28,Uber
+2026-02-19 18:16:54,lunch at Trader Joe's,3.68,Trader Joe's
+2026-02-19 18:14:06,coffee from Trader Joe's,6.6,Trader Joe's
+2026-02-19 18:15:54,coffee from Trader Joe's,9.81,Trader Joe's
+2026-02-19 18:15:40,supplies from Walmart,98.63,Walmart
+2026-02-19 18:13:49,freelance payment PayPal Transfer,-1872.24,PayPal Transfer
+2026-02-19 18:13:00,phone payment PG&E,46.8,PG&E
+2026-02-19 18:12:04,dental checkup at Dental Office,16.75,Dental Office
+2026-02-19 18:16:52,movie night Spotify,19.82,Spotify
+2026-02-19 18:11:56,internet service AT&T,46.01,AT&T
+2026-02-19 18:14:42,groceries at McDonald's,25.22,McDonald's
+2026-02-19 18:14:49,transfer received Freelance Client,-592.59,Freelance Client
+2026-02-19 18:12:28,transfer received Employer Inc,-1746.06,Employer Inc
+2026-02-19 18:15:32,phone payment Verizon,56.2,Verizon
+2026-02-19 18:17:05,movie night Hulu,46.32,Hulu
+2026-02-19 18:16:15,internet service State Farm,39.08,State Farm
+2026-02-19 18:13:56,utility payment PG&E,21.11,PG&E
+2026-02-19 18:12:21,toll payment Uber,10.31,Uber
+2026-02-19 18:17:26,gas fillup at Chevron,88.27,Chevron
+2026-02-19 18:14:42,bonus payment PayPal Transfer,-674.15,PayPal Transfer
+2026-02-19 18:15:22,doctor visit at CVS Pharmacy,122.98,CVS Pharmacy
+2026-02-19 18:16:24,lunch at Whole Foods,23.49,Whole Foods
+2026-02-19 18:13:55,gas fillup at Delta Airlines,7.81,Delta Airlines
+2026-02-19 18:11:58,internet service State Farm,28.94,State Farm
+2026-02-19 18:12:24,groceries at Starbucks,40.25,Starbucks
+2026-02-19 18:15:36,gas fillup at Chevron,22.36,Chevron
+2026-02-19 18:13:41,freelance payment Freelance Client,-4937.34,Freelance Client
+2026-02-19 18:16:49,pharmacy at CVS Pharmacy,11.62,CVS Pharmacy
+2026-02-19 18:16:02,dental checkup at Dental Office,27.68,Dental Office
+2026-02-19 18:17:28,ride to work Chevron,48.69,Chevron
+2026-02-19 18:15:36,parking at Delta Airlines,10.98,Delta Airlines
+2026-02-19 18:13:25,service fee Misc Store,128.82,Misc Store
+2026-02-19 18:16:20,gas fillup at Uber,69.92,Uber
+2026-02-19 18:11:46,phone payment Verizon,18.59,Verizon
+2026-02-19 18:14:43,donation to Government Fee,38.0,Government Fee
+2026-02-19 18:16:49,monthly subscription Spotify,22.73,Spotify
+2026-02-19 18:14:41,coffee from Whole Foods,48.09,Whole Foods
+2026-02-19 18:12:25,atm withdrawal ATM Withdrawal,41.91,ATM Withdrawal
+2026-02-19 18:14:36,internet service AT&T,55.31,AT&T
+2026-02-19 18:14:52,groceries at McDonald's,14.8,McDonald's
+2026-02-19 18:13:48,doctor visit at Walgreens,26.65,Walgreens
+2026-02-19 18:16:57,monthly subscription Hulu,61.18,Hulu
+2026-02-19 18:13:38,takeout from Chipotle,77.41,Chipotle
+2026-02-19 18:13:13,phone payment Verizon,35.19,Verizon
+2026-02-19 18:14:38,lunch at McDonald's,26.71,McDonald's
+2026-02-19 18:12:49,transfer received Employer Inc,-4362.92,Employer Inc
+2026-02-19 18:13:31,bonus payment Direct Deposit,-1482.88,Direct Deposit
+2026-02-19 18:13:59,doctor visit at Walgreens,63.28,Walgreens
+2026-02-19 18:17:13,online order from Nike,106.44,Nike
+2026-02-19 18:12:04,parking at Lyft,35.31,Lyft
+2026-02-19 18:12:46,concert tickets Hulu,4.03,Hulu
+2026-02-19 18:12:47,home goods at Best Buy,90.65,Best Buy
+2026-02-19 18:17:34,streaming service Hulu,30.83,Hulu
+2026-02-19 18:16:56,home goods at Target,76.93,Target
+2026-02-19 18:12:45,ride to work Chevron,61.21,Chevron
+2026-02-19 18:14:59,utility payment PG&E,156.45,PG&E
+2026-02-19 18:12:06,doctor visit at Walgreens,42.49,Walgreens
+2026-02-19 18:13:30,freelance payment PayPal Transfer,-4915.03,PayPal Transfer
+2026-02-19 18:13:38,eye exam at Walgreens,29.56,Walgreens
+2026-02-19 18:14:49,salary deposit Employer Inc,-3413.23,Employer Inc
+2026-02-19 18:17:10,ride to work Shell,8.49,Shell
+2026-02-19 18:16:27,game purchase AMC Theatres,27.36,AMC Theatres
+2026-02-19 18:14:48,parking at Lyft,6.82,Lyft
+2026-02-19 18:16:18,movie night Netflix,64.14,Netflix
+2026-02-19 18:14:30,transfer received Side Gig Co,-4513.41,Side Gig Co
+2026-02-19 18:15:59,streaming service AMC Theatres,9.09,AMC Theatres
+2026-02-19 18:16:15,monthly subscription Hulu,27.51,Hulu
+2026-02-19 18:13:08,clothing from Amazon,9.63,Amazon
+2026-02-19 18:16:35,online order from Best Buy,18.96,Best Buy
+2026-02-19 18:15:04,prescription at Walgreens,14.49,Walgreens
+2026-02-19 18:14:31,clothing from Nike,72.93,Nike
+2026-02-19 18:13:58,phone payment AT&T,26.31,AT&T
+2026-02-19 18:12:56,pharmacy at Dental Office,24.1,Dental Office
+2026-02-19 18:14:36,eye exam at CVS Pharmacy,85.17,CVS Pharmacy
+2026-02-19 18:12:21,lunch at Whole Foods,28.12,Whole Foods
+2026-02-19 18:15:24,streaming service Hulu,24.19,Hulu
+2026-02-19 18:16:59,dental checkup at Dental Office,13.14,Dental Office
+2026-02-19 18:16:20,concert tickets Hulu,30.82,Hulu
+2026-02-19 18:15:15,clothing from Nike,17.67,Nike
+2026-02-19 18:14:34,gas fillup at Uber,74.77,Uber
+2026-02-19 18:15:46,coffee from Whole Foods,15.6,Whole Foods
+2026-02-19 18:12:20,groceries at Whole Foods,107.04,Whole Foods
+2026-02-19 18:11:54,online order from Nike,13.89,Nike
+2026-02-19 18:16:46,bonus payment Side Gig Co,-3294.46,Side Gig Co
+2026-02-19 18:13:46,lunch at McDonald's,34.42,McDonald's
+2026-02-19 18:15:36,dental checkup at Kaiser,23.17,Kaiser
+2026-02-19 18:14:07,streaming service Netflix,34.05,Netflix
+2026-02-19 18:13:45,electronics from Amazon,17.84,Amazon
+2026-02-19 18:16:13,monthly bill PG&E,19.31,PG&E
+2026-02-19 18:13:39,utility payment PG&E,17.62,PG&E
+2026-02-19 18:16:07,supplies from Best Buy,39.89,Best Buy
+2026-02-19 18:16:31,bonus payment Direct Deposit,-4619.1,Direct Deposit
+2026-02-19 18:12:41,prescription at CVS Pharmacy,119.73,CVS Pharmacy
+2026-02-19 18:17:27,ride to work Delta Airlines,20.2,Delta Airlines
+2026-02-19 18:11:58,supplies from Best Buy,57.77,Best Buy
+2026-02-19 18:14:05,insurance premium Comcast,12.0,Comcast
+2026-02-19 18:14:36,phone payment AT&T,110.8,AT&T
+2026-02-19 18:16:34,coffee from Trader Joe's,31.7,Trader Joe's
+2026-02-19 18:12:38,miscellaneous charge Wire Transfer,23.18,Wire Transfer
+2026-02-19 18:14:57,eye exam at Dental Office,7.67,Dental Office
+2026-02-19 18:13:48,groceries at Chipotle,57.67,Chipotle
+2026-02-19 18:17:07,coffee from Whole Foods,55.52,Whole Foods
+2026-02-19 18:12:20,monthly bill AT&T,14.21,AT&T
+2026-02-19 18:13:11,phone payment State Farm,48.08,State Farm
+2026-02-19 18:16:31,phone payment Comcast,64.02,Comcast
+2026-02-19 18:13:32,salary deposit Direct Deposit,-2224.37,Direct Deposit
+2026-02-19 18:17:15,online order from Target,27.93,Target
+2026-02-19 18:11:54,dental checkup at Eye Center,62.31,Eye Center
+2026-02-19 18:13:55,utility payment AT&T,42.03,AT&T
+2026-02-19 18:12:14,monthly subscription Netflix,23.67,Netflix
+2026-02-19 18:15:02,salary deposit PayPal Transfer,-3841.07,PayPal Transfer
+2026-02-19 18:17:22,prescription at Dental Office,28.19,Dental Office
+2026-02-19 18:13:32,parking at Chevron,57.92,Chevron
+2026-02-19 18:15:28,lunch at Chipotle,164.52,Chipotle
+2026-02-19 18:13:11,online order from Amazon,78.25,Amazon
+2026-02-19 18:14:14,movie night Spotify,64.35,Spotify
+2026-02-19 18:15:01,parking at Uber,15.33,Uber
+2026-02-19 18:13:05,monthly subscription Netflix,34.14,Netflix
+2026-02-19 18:15:44,monthly bill Verizon,54.74,Verizon
+2026-02-19 18:14:36,pharmacy at Dental Office,84.43,Dental Office
+2026-02-19 18:17:01,lunch at Trader Joe's,94.11,Trader Joe's
+2026-02-19 18:13:15,online order from Target,9.38,Target
+2026-02-19 18:17:19,dinner at Chipotle,29.9,Chipotle
+2026-02-19 18:12:41,supplies from Target,81.48,Target
+2026-02-19 18:11:43,phone payment Comcast,6.96,Comcast
+2026-02-19 18:15:33,insurance premium Verizon,76.73,Verizon
+2026-02-19 18:16:00,lunch at Whole Foods,26.88,Whole Foods
+2026-02-19 18:14:27,internet service State Farm,20.53,State Farm
+2026-02-19 18:11:51,freelance payment Freelance Client,-4359.54,Freelance Client
+2026-02-19 18:17:35,coffee from Chipotle,29.18,Chipotle
+2026-02-19 18:12:26,clothing from Nike,32.53,Nike
+2026-02-19 18:16:49,groceries at Starbucks,12.3,Starbucks
+2026-02-19 18:16:56,home goods at Nike,36.79,Nike
+2026-02-19 18:12:55,phone payment Verizon,123.04,Verizon
+2026-02-19 18:16:47,coffee from McDonald's,7.01,McDonald's
+2026-02-19 18:14:22,monthly subscription AMC Theatres,16.52,AMC Theatres
+2026-02-19 18:16:59,miscellaneous charge Misc Store,21.71,Misc Store
+2026-02-19 18:16:55,streaming service Netflix,29.64,Netflix
+2026-02-19 18:16:14,dinner at Chipotle,47.09,Chipotle
+2026-02-19 18:13:19,electronics from Nike,47.39,Nike
+2026-02-19 18:15:04,gas fillup at Uber,138.47,Uber
+2026-02-19 18:17:29,monthly subscription Hulu,25.07,Hulu
+2026-02-19 18:13:31,bonus payment Side Gig Co,-1022.56,Side Gig Co
+2026-02-19 18:13:55,salary deposit Employer Inc,-4268.6,Employer Inc
+2026-02-19 18:15:43,online order from Nike,88.72,Nike
+2026-02-19 18:11:58,groceries at Trader Joe's,10.74,Trader Joe's
+2026-02-19 18:13:07,bonus payment Direct Deposit,-1568.9,Direct Deposit
+2026-02-19 18:12:36,parking at Shell,29.55,Shell
+2026-02-19 18:14:05,direct deposit PayPal Transfer,-2759.13,PayPal Transfer
+2026-02-19 18:14:08,home goods at Amazon,198.76,Amazon
+2026-02-19 18:15:14,dinner at Trader Joe's,259.45,Trader Joe's
+2026-02-19 18:14:34,online order from Best Buy,46.77,Best Buy
+2026-02-19 18:12:35,home goods at Walmart,46.3,Walmart
+2026-02-19 18:11:52,parking at Chevron,8.36,Chevron
+2026-02-19 18:14:44,clothing from Walmart,32.85,Walmart
+2026-02-19 18:16:10,gas fillup at Lyft,16.84,Lyft
+2026-02-19 18:17:09,phone payment AT&T,136.1,AT&T
+2026-02-19 18:16:38,pharmacy at Walgreens,21.66,Walgreens
+2026-02-19 18:13:24,game purchase Spotify,18.81,Spotify
+2026-02-19 18:16:47,parking at Delta Airlines,28.94,Delta Airlines
+2026-02-19 18:14:24,gas fillup at Shell,37.21,Shell
+2026-02-19 18:13:17,utility payment Verizon,38.26,Verizon
+2026-02-19 18:12:09,utility payment PG&E,47.26,PG&E
+2026-02-19 18:14:15,doctor visit at Walgreens,44.88,Walgreens
+2026-02-19 18:14:52,coffee from Trader Joe's,29.61,Trader Joe's
+2026-02-19 18:13:16,direct deposit PayPal Transfer,-1170.78,PayPal Transfer
+2026-02-19 18:12:46,utility payment Verizon,17.66,Verizon
+2026-02-19 18:17:14,parking at Uber,83.06,Uber
+2026-02-19 18:12:00,online order from Best Buy,14.35,Best Buy
+2026-02-19 18:17:14,supplies from Walmart,23.64,Walmart
+2026-02-19 18:14:02,utility payment Comcast,13.02,Comcast
+2026-02-19 18:16:20,groceries at Starbucks,103.62,Starbucks
+2026-02-19 18:12:15,dinner at Trader Joe's,42.08,Trader Joe's
+2026-02-19 18:15:01,coffee from Trader Joe's,29.3,Trader Joe's
+2026-02-19 18:16:10,donation to Local Shop,40.83,Local Shop
+2026-02-19 18:14:12,salary deposit Freelance Client,-1333.95,Freelance Client
+2026-02-19 18:13:44,online order from Nike,39.48,Nike
+2026-02-19 18:14:33,monthly subscription AMC Theatres,50.2,AMC Theatres
+2026-02-19 18:12:46,movie night Steam,38.98,Steam
+2026-02-19 18:12:52,phone payment Verizon,57.16,Verizon
+2026-02-19 18:13:02,movie night Hulu,24.2,Hulu
+2026-02-19 18:11:49,takeout from Chipotle,7.66,Chipotle
+2026-02-19 18:17:03,coffee from Starbucks,28.68,Starbucks
+2026-02-19 18:12:02,internet service PG&E,29.06,PG&E
+2026-02-19 18:17:09,takeout from Starbucks,17.12,Starbucks
+2026-02-19 18:11:39,takeout from Chipotle,103.85,Chipotle
+2026-02-19 18:15:32,clothing from Nike,36.42,Nike
+2026-02-19 18:14:52,phone payment State Farm,97.58,State Farm
+2026-02-19 18:11:51,direct deposit Freelance Client,-1020.39,Freelance Client
+2026-02-19 18:17:14,utility payment State Farm,74.32,State Farm
+2026-02-19 18:15:59,monthly subscription Netflix,52.28,Netflix
+2026-02-19 18:16:52,doctor visit at CVS Pharmacy,26.74,CVS Pharmacy
+2026-02-19 18:14:12,direct deposit Freelance Client,-1639.71,Freelance Client
+2026-02-19 18:13:20,prescription at CVS Pharmacy,85.2,CVS Pharmacy
+2026-02-19 18:12:42,takeout from Whole Foods,19.53,Whole Foods
+2026-02-19 18:12:16,utility payment AT&T,18.43,AT&T
+2026-02-19 18:15:37,insurance premium AT&T,29.28,AT&T
+2026-02-19 18:16:31,coffee from Whole Foods,30.27,Whole Foods
+2026-02-19 18:12:52,dental checkup at Kaiser,21.51,Kaiser
+2026-02-19 18:11:45,electronics from Best Buy,67.78,Best Buy
+2026-02-19 18:13:46,groceries at Starbucks,38.12,Starbucks
+2026-02-19 18:12:31,internet service Verizon,40.33,Verizon
+2026-02-19 18:12:56,electronics from Walmart,21.75,Walmart
+2026-02-19 18:12:55,donation to Wire Transfer,25.13,Wire Transfer
+2026-02-19 18:15:34,flight booking Chevron,61.84,Chevron
+2026-02-19 18:14:12,atm withdrawal Government Fee,22.59,Government Fee
+2026-02-19 18:14:57,atm withdrawal Local Shop,12.9,Local Shop
+2026-02-19 18:13:56,phone payment Comcast,58.07,Comcast
+2026-02-19 18:17:30,flight booking Shell,13.23,Shell
+2026-02-19 18:14:34,freelance payment PayPal Transfer,-3394.43,PayPal Transfer
+2026-02-19 18:11:51,ride to work Shell,121.74,Shell
+2026-02-19 18:12:26,game purchase Hulu,19.02,Hulu
+2026-02-19 18:15:59,doctor visit at Dental Office,17.77,Dental Office
+2026-02-19 18:17:04,flight booking Lyft,47.89,Lyft
+2026-02-19 18:12:21,monthly subscription Spotify,11.35,Spotify
+2026-02-19 18:14:21,phone payment Verizon,13.48,Verizon
+2026-02-19 18:16:46,coffee from Whole Foods,23.85,Whole Foods
+2026-02-19 18:14:54,supplies from Best Buy,26.25,Best Buy
+2026-02-19 18:11:42,parking at Chevron,58.11,Chevron
+2026-02-19 18:14:43,phone payment Comcast,35.35,Comcast
+2026-02-19 18:13:19,online order from Target,31.84,Target
+2026-02-19 18:12:52,utility payment AT&T,23.57,AT&T
+2026-02-19 18:17:13,monthly bill Verizon,8.0,Verizon
+2026-02-19 18:12:14,pharmacy at Kaiser,28.89,Kaiser
+2026-02-19 18:16:34,streaming service AMC Theatres,19.02,AMC Theatres
+2026-02-19 18:16:07,parking at Shell,20.36,Shell
+2026-02-19 18:15:09,utility payment AT&T,21.74,AT&T
+2026-02-19 18:13:32,concert tickets AMC Theatres,183.15,AMC Theatres
+2026-02-19 18:12:05,dinner at Starbucks,30.56,Starbucks
+2026-02-19 18:15:36,pharmacy at Dental Office,52.03,Dental Office
+2026-02-19 18:17:21,home goods at Amazon,23.52,Amazon
+2026-02-19 18:12:40,home goods at Best Buy,93.66,Best Buy
+2026-02-19 18:12:21,online order from Amazon,22.99,Amazon
+2026-02-19 18:14:27,internet service Comcast,46.35,Comcast
+2026-02-19 18:16:42,service fee Misc Store,123.53,Misc Store
+2026-02-19 18:11:37,home goods at Best Buy,78.86,Best Buy
+2026-02-19 18:16:19,takeout from Trader Joe's,85.88,Trader Joe's
+2026-02-19 18:12:07,direct deposit Direct Deposit,-1911.65,Direct Deposit
+2026-02-19 18:11:47,salary deposit PayPal Transfer,-3954.44,PayPal Transfer
+2026-02-19 18:12:28,concert tickets Spotify,18.15,Spotify
+2026-02-19 18:14:20,toll payment Chevron,17.7,Chevron
+2026-02-19 18:17:13,wire transfer Wire Transfer,10.66,Wire Transfer
+2026-02-19 18:15:34,utility payment State Farm,42.54,State Farm
+2026-02-19 18:11:57,clothing from Nike,20.99,Nike
+2026-02-19 18:12:30,internet service Verizon,24.53,Verizon
+2026-02-19 18:14:22,dinner at Chipotle,67.12,Chipotle
+2026-02-19 18:12:08,utility payment State Farm,17.08,State Farm
+2026-02-19 18:15:36,parking at Uber,24.04,Uber
+2026-02-19 18:13:45,wire transfer Government Fee,37.53,Government Fee
+2026-02-19 18:17:20,pharmacy at CVS Pharmacy,15.76,CVS Pharmacy
+2026-02-19 18:16:31,dental checkup at Kaiser,28.55,Kaiser
+2026-02-19 18:16:30,prescription at Dental Office,119.78,Dental Office
+2026-02-19 18:13:00,flight booking Lyft,59.76,Lyft
+2026-02-19 18:14:11,doctor visit at CVS Pharmacy,9.08,CVS Pharmacy
+2026-02-19 18:15:37,clothing from Nike,85.9,Nike
+2026-02-19 18:12:08,doctor visit at Eye Center,24.9,Eye Center
+2026-02-19 18:11:39,takeout from Chipotle,61.44,Chipotle
+2026-02-19 18:13:33,freelance payment PayPal Transfer,-2521.81,PayPal Transfer
+2026-02-19 18:14:00,direct deposit Employer Inc,-3255.7,Employer Inc
+2026-02-19 18:16:19,insurance premium Verizon,39.62,Verizon
+2026-02-19 18:16:29,groceries at Starbucks,10.78,Starbucks
+2026-02-19 18:11:56,utility payment State Farm,6.51,State Farm
+2026-02-19 18:11:59,utility payment Comcast,36.16,Comcast
+2026-02-19 18:17:08,home goods at Best Buy,30.22,Best Buy
+2026-02-19 18:13:19,utility payment AT&T,24.15,AT&T
+2026-02-19 18:12:21,monthly subscription AMC Theatres,24.69,AMC Theatres
+2026-02-19 18:16:21,insurance premium Verizon,73.73,Verizon
+2026-02-19 18:16:18,lunch at Chipotle,221.52,Chipotle
+2026-02-19 18:15:13,gas fillup at Shell,8.63,Shell
+2026-02-19 18:16:12,supplies from Target,30.95,Target
+2026-02-19 18:16:45,groceries at Whole Foods,25.41,Whole Foods
+2026-02-19 18:16:43,online order from Best Buy,16.81,Best Buy
+2026-02-19 18:13:10,concert tickets Hulu,20.59,Hulu
+2026-02-19 18:14:07,dinner at Chipotle,16.05,Chipotle
+2026-02-19 18:17:30,bonus payment Direct Deposit,-2794.87,Direct Deposit
+2026-02-19 18:13:48,movie night AMC Theatres,30.85,AMC Theatres
+2026-02-19 18:15:21,direct deposit Employer Inc,-1217.65,Employer Inc
+2026-02-19 18:16:40,wire transfer Local Shop,100.45,Local Shop
+2026-02-19 18:16:51,insurance premium AT&T,24.41,AT&T
+2026-02-19 18:15:12,home goods at Target,10.06,Target
+2026-02-19 18:13:41,atm withdrawal Local Shop,19.0,Local Shop
+2026-02-19 18:15:44,eye exam at Walgreens,16.49,Walgreens
+2026-02-19 18:11:37,streaming service Netflix,49.65,Netflix
+2026-02-19 18:13:42,monthly bill Comcast,28.42,Comcast
+2026-02-19 18:16:09,groceries at Starbucks,19.74,Starbucks
+2026-02-19 18:15:28,ride to work Delta Airlines,23.83,Delta Airlines
+2026-02-19 18:12:04,flight booking Delta Airlines,59.22,Delta Airlines
+2026-02-19 18:15:55,lunch at McDonald's,12.19,McDonald's
+2026-02-19 18:15:15,ride to work Lyft,43.84,Lyft
+2026-02-19 18:14:16,dinner at Chipotle,47.41,Chipotle
+2026-02-19 18:12:13,dental checkup at Walgreens,7.36,Walgreens
+2026-02-19 18:15:10,toll payment Lyft,68.4,Lyft
+2026-02-19 18:16:04,lunch at Chipotle,73.32,Chipotle
+2026-02-19 18:12:47,supplies from Nike,38.92,Nike
+2026-02-19 18:15:24,bonus payment Employer Inc,-2397.11,Employer Inc
+2026-02-19 18:12:01,salary deposit Direct Deposit,-2086.53,Direct Deposit
+2026-02-19 18:12:49,takeout from Starbucks,103.99,Starbucks
+2026-02-19 18:13:44,salary deposit Employer Inc,-3620.14,Employer Inc
+2026-02-19 18:16:16,monthly subscription Spotify,16.2,Spotify
+2026-02-19 18:13:17,groceries at Chipotle,80.13,Chipotle
+2026-02-19 18:16:56,clothing from Target,54.94,Target
+2026-02-19 18:17:29,online order from Amazon,13.66,Amazon
+2026-02-19 18:12:34,pharmacy at Eye Center,28.43,Eye Center
+2026-02-19 18:11:45,streaming service Spotify,6.91,Spotify
+2026-02-19 18:15:58,parking at Shell,35.68,Shell
+2026-02-19 18:16:11,prescription at Kaiser,29.9,Kaiser
+2026-02-19 18:17:00,transfer received Direct Deposit,-4611.41,Direct Deposit
+2026-02-19 18:15:38,streaming service Spotify,45.14,Spotify
+2026-02-19 18:16:16,ride to work Shell,37.75,Shell
+2026-02-19 18:13:47,groceries at McDonald's,8.98,McDonald's
+2026-02-19 18:12:12,parking at Uber,54.55,Uber
+2026-02-19 18:17:35,game purchase Spotify,22.9,Spotify
+2026-02-19 18:15:13,monthly bill Verizon,53.85,Verizon
+2026-02-19 18:13:13,monthly bill Verizon,46.82,Verizon
+2026-02-19 18:16:57,takeout from Chipotle,42.02,Chipotle
+2026-02-19 18:12:02,flight booking Lyft,23.73,Lyft
+2026-02-19 18:11:56,clothing from Target,104.37,Target
+2026-02-19 18:13:07,direct deposit PayPal Transfer,-4395.19,PayPal Transfer
+2026-02-19 18:12:22,flight booking Chevron,209.35,Chevron
+2026-02-19 18:14:03,atm withdrawal Misc Store,112.84,Misc Store
+2026-02-19 18:15:19,miscellaneous charge Local Shop,30.62,Local Shop
+2026-02-19 18:14:42,movie night Steam,13.7,Steam
+2026-02-19 18:14:55,lunch at Trader Joe's,21.7,Trader Joe's
+2026-02-19 18:12:18,parking at Shell,3.14,Shell
+2026-02-19 18:14:48,streaming service Hulu,50.62,Hulu
+2026-02-19 18:17:27,coffee from McDonald's,28.25,McDonald's
+2026-02-19 18:13:34,bonus payment PayPal Transfer,-4101.7,PayPal Transfer
+2026-02-19 18:16:23,groceries at Trader Joe's,23.65,Trader Joe's
+2026-02-19 18:15:25,home goods at Best Buy,44.31,Best Buy
+2026-02-19 18:16:10,parking at Uber,12.68,Uber
+2026-02-19 18:15:32,atm withdrawal Misc Store,84.63,Misc Store
+2026-02-19 18:14:14,coffee from Chipotle,17.27,Chipotle
+2026-02-19 18:13:00,parking at Shell,8.75,Shell
+2026-02-19 18:12:09,transfer received Freelance Client,-3492.52,Freelance Client
+2026-02-19 18:12:16,lunch at Whole Foods,90.23,Whole Foods
+2026-02-19 18:12:12,flight booking Chevron,40.74,Chevron
+2026-02-19 18:16:12,dental checkup at Dental Office,46.47,Dental Office
+2026-02-19 18:16:37,game purchase Hulu,31.22,Hulu
+2026-02-19 18:16:30,clothing from Walmart,62.15,Walmart
+2026-02-19 18:16:54,phone payment AT&T,41.2,AT&T
+2026-02-19 18:13:45,transfer received PayPal Transfer,-1824.62,PayPal Transfer
+2026-02-19 18:15:38,monthly subscription Netflix,7.17,Netflix
+2026-02-19 18:16:31,utility payment Comcast,15.44,Comcast
+2026-02-19 18:12:23,pharmacy at CVS Pharmacy,27.28,CVS Pharmacy
+2026-02-19 18:11:36,eye exam at Eye Center,58.41,Eye Center
+2026-02-19 18:12:51,bonus payment Employer Inc,-2854.3,Employer Inc
+2026-02-19 18:17:05,transfer received Employer Inc,-1166.85,Employer Inc
+2026-02-19 18:16:26,ride to work Lyft,28.88,Lyft
+2026-02-19 18:12:22,online order from Amazon,12.08,Amazon
+2026-02-19 18:16:40,home goods at Walmart,20.33,Walmart
+2026-02-19 18:12:38,pharmacy at Dental Office,55.72,Dental Office
+2026-02-19 18:13:12,supplies from Target,50.72,Target
+2026-02-19 18:12:36,internet service AT&T,15.1,AT&T
+2026-02-19 18:16:54,online order from Walmart,12.9,Walmart
+2026-02-19 18:16:34,pharmacy at Walgreens,10.37,Walgreens
+2026-02-19 18:11:59,atm withdrawal Local Shop,18.18,Local Shop
+2026-02-19 18:11:44,groceries at Trader Joe's,15.01,Trader Joe's
+2026-02-19 18:16:20,prescription at Kaiser,26.98,Kaiser
+2026-02-19 18:13:57,online order from Nike,41.33,Nike
+2026-02-19 18:15:00,coffee from Chipotle,33.22,Chipotle
+2026-02-19 18:15:25,game purchase Hulu,36.15,Hulu
+2026-02-19 18:14:51,service fee Local Shop,85.33,Local Shop
+2026-02-19 18:12:43,ride to work Delta Airlines,36.51,Delta Airlines
+2026-02-19 18:13:27,freelance payment Freelance Client,-3055.61,Freelance Client
+2026-02-19 18:15:11,dinner at Trader Joe's,59.46,Trader Joe's
+2026-02-19 18:16:18,clothing from Best Buy,29.73,Best Buy
+2026-02-19 18:13:37,toll payment Chevron,44.03,Chevron
+2026-02-19 18:11:44,utility payment Comcast,22.91,Comcast
+2026-02-19 18:12:28,lunch at McDonald's,143.32,McDonald's
+2026-02-19 18:13:18,monthly bill Comcast,4.2,Comcast
+2026-02-19 18:17:22,bonus payment PayPal Transfer,-3414.62,PayPal Transfer
+2026-02-19 18:14:09,phone payment AT&T,20.98,AT&T
+2026-02-19 18:14:35,dental checkup at Kaiser,74.18,Kaiser
+2026-02-19 18:14:08,salary deposit Employer Inc,-817.82,Employer Inc
+2026-02-19 18:16:47,eye exam at Walgreens,21.82,Walgreens
+2026-02-19 18:16:24,flight booking Delta Airlines,65.24,Delta Airlines
+2026-02-19 18:12:31,electronics from Best Buy,11.51,Best Buy
+2026-02-19 18:15:35,insurance premium Verizon,12.01,Verizon
+2026-02-19 18:14:53,concert tickets Hulu,28.5,Hulu
+2026-02-19 18:16:59,home goods at Best Buy,31.57,Best Buy
+2026-02-19 18:11:58,flight booking Uber,108.88,Uber
+2026-02-19 18:15:04,prescription at Walgreens,17.71,Walgreens
+2026-02-19 18:12:44,toll payment Shell,32.2,Shell
+2026-02-19 18:15:00,coffee from Whole Foods,27.18,Whole Foods
+2026-02-19 18:16:30,gas fillup at Uber,50.9,Uber
+2026-02-19 18:14:12,parking at Delta Airlines,36.22,Delta Airlines
+2026-02-19 18:14:48,wire transfer Government Fee,143.95,Government Fee
+2026-02-19 18:13:47,home goods at Nike,18.64,Nike
+2026-02-19 18:17:16,transfer received Freelance Client,-1750.37,Freelance Client
+2026-02-19 18:16:46,groceries at McDonald's,75.8,McDonald's
+2026-02-19 18:12:08,utility payment Verizon,43.82,Verizon
+2026-02-19 18:11:51,supplies from Walmart,27.61,Walmart
+2026-02-19 18:14:48,coffee from Chipotle,228.35,Chipotle
+2026-02-19 18:13:28,phone payment AT&T,10.47,AT&T
+2026-02-19 18:11:47,supplies from Amazon,32.02,Amazon
+2026-02-19 18:15:39,insurance premium PG&E,29.05,PG&E
