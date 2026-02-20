@@ -10,3 +10,4 @@ python-multipart==0.0.12
 faker==30.0.0
 joblib==1.4.2
 numpy==1.26.4
+asyncpg==0.29.0

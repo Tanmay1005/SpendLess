@@ -4,6 +4,7 @@ import pandas as pd
 from fastapi import APIRouter, HTTPException, UploadFile
 
 from app.schemas.transactions import TransactionOut, UploadResponse
+from app.services.db import get_pool
 
 router = APIRouter(tags=["transactions"])
 
@@ -30,21 +31,34 @@ async def upload_csv(file: UploadFile):
     df.columns = df.columns.str.lower()
     df["date"] = pd.to_datetime(df["date"])
 
-    from app.main import app_state
-
+    pool = get_pool()
     transactions = []
-    start_id = len(app_state["transactions"]) + 1
-    for i, row in df.iterrows():
-        txn = TransactionOut(
-            id=start_id + i,
-            date=row["date"],
-            description=str(row["description"]),
-            amount=float(row["amount"]),
-            merchant=str(row["merchant"]),
-        )
-        transactions.append(txn)
 
-    app_state["transactions"].extend(transactions)
+    async with pool.acquire() as conn:
+        for _, row in df.iterrows():
+            record = await conn.fetchrow(
+                """
+                INSERT INTO transactions (user_id, date, description, amount, merchant)
+                VALUES ($1, $2, $3, $4, $5)
+                RETURNING id, user_id, date, description, amount, merchant,
+                          category, anomaly_score, is_anomaly
+                """,
+                1,  # default user_id for MVP
+                row["date"].to_pydatetime(),
+                str(row["description"]),
+                float(row["amount"]),
+                str(row["merchant"]),
+            )
+            transactions.append(TransactionOut(
+                id=record["id"],
+                date=record["date"],
+                description=record["description"],
+                amount=record["amount"],
+                merchant=record["merchant"],
+                category=record["category"],
+                anomaly_score=record["anomaly_score"],
+                is_anomaly=record["is_anomaly"],
+            ))
 
     return UploadResponse(
         message=f"Uploaded {len(transactions)} transactions",

@@ -7,12 +7,11 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
+from app.services.db import close_db, init_db
 
 logger = logging.getLogger("spendlens")
 
-# In-memory state for Phase 1 (replaced by DB in Phase 2)
 app_state: dict = {
-    "transactions": [],
     "models": {},
 }
 
@@ -20,7 +19,6 @@ app_state: dict = {
 def load_models():
     """Load ML models from disk into memory."""
     model_dir = settings.model_dir
-    # Resolve relative to backend/ directory
     if not os.path.isabs(model_dir):
         model_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), model_dir)
 
@@ -51,7 +49,9 @@ async def lifespan(app: FastAPI):
     logging.basicConfig(level=settings.log_level)
     logger.info("Starting SpendLens backend...")
     load_models()
+    await init_db()
     yield
+    await close_db()
     logger.info("Shutting down SpendLens backend...")
 
 
