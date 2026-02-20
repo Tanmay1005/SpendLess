@@ -18,3 +18,7 @@ backend/ml/models/
 
 # OS
 .DS_Store
+
+.gitignore
+README.md
+CLAUDE.md

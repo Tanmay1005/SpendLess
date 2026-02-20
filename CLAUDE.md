@@ -75,7 +75,7 @@ MLOps:
 |-------|------|--------|
 | 1 | FastAPI + ML models (local, no Docker) | DONE |
 | 2 | Postgres persistence | DONE |
-| 3 | Redis caching + Gemini LLM advisor | NOT STARTED |
+| 3 | Redis caching + Gemini LLM advisor | DONE |
 | 4 | Docker Compose (backend + postgres + redis) | NOT STARTED |
 | 5 | Streamlit frontend | NOT STARTED |
 | 6 | Nginx reverse proxy | NOT STARTED |
