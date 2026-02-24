@@ -78,7 +78,7 @@ MLOps:
 | 3 | Redis caching + Gemini LLM advisor | DONE |
 | 4 | Docker Compose (backend + postgres + redis) | DONE |
 | 5 | Streamlit frontend | DONE |
-| 6 | Nginx reverse proxy | NOT STARTED |
+| 6 | Nginx reverse proxy | DONE |
 | 7 | Prometheus + Grafana monitoring | NOT STARTED |
 | 8 | MLOps pipeline (drift + retrain + hot-swap) | NOT STARTED |
 | 9 | CI/CD + auth + polish | NOT STARTED |
