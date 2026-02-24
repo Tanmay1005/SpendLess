@@ -5,6 +5,7 @@ from fastapi import APIRouter, HTTPException, UploadFile
 
 from app.schemas.transactions import TransactionOut, UploadResponse
 from app.services.db import get_pool
+from app.utils.metrics import TRANSACTIONS_UPLOADED
 
 router = APIRouter(tags=["transactions"])
 
@@ -59,6 +60,8 @@ async def upload_csv(file: UploadFile):
                 anomaly_score=record["anomaly_score"],
                 is_anomaly=record["is_anomaly"],
             ))
+
+    TRANSACTIONS_UPLOADED.inc(len(transactions))
 
     return UploadResponse(
         message=f"Uploaded {len(transactions)} transactions",

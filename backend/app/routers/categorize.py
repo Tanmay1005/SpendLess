@@ -1,3 +1,5 @@
+import time
+
 import numpy as np
 import pandas as pd
 from fastapi import APIRouter, HTTPException
@@ -5,6 +7,7 @@ from fastapi import APIRouter, HTTPException
 from app.schemas.transactions import CategorizeResponse, CategoryResult
 from app.services.cache import cache_invalidate
 from app.services.db import get_pool
+from app.utils.metrics import INFERENCE_DURATION, TRANSACTIONS_CATEGORIZED
 from app.utils.preprocessing import extract_features
 
 router = APIRouter(tags=["ml"])
@@ -36,8 +39,10 @@ async def categorize_transactions():
 
     df = pd.DataFrame([dict(r) for r in rows])
     features, _ = extract_features(df, tfidf=models["tfidf"], fit=False)
+    start = time.perf_counter()
     predictions = models["categorizer"].predict(features)
     probabilities = models["categorizer"].predict_proba(features)
+    INFERENCE_DURATION.labels(model="categorizer").observe(time.perf_counter() - start)
 
     results = []
     async with pool.acquire() as conn:
@@ -60,6 +65,8 @@ async def categorize_transactions():
                 category=category,
                 confidence=round(confidence, 4),
             ))
+
+    TRANSACTIONS_CATEGORIZED.inc(len(results))
 
     # Invalidate advice cache since categories changed
     await cache_invalidate("spendlens:advice:*")

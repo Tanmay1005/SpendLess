@@ -1,3 +1,5 @@
+import time
+
 import numpy as np
 import pandas as pd
 from fastapi import APIRouter, HTTPException
@@ -5,6 +7,7 @@ from fastapi import APIRouter, HTTPException
 from app.schemas.transactions import AnomalyResponse, AnomalyResult
 from app.services.cache import cache_invalidate
 from app.services.db import get_pool
+from app.utils.metrics import ANOMALIES_DETECTED, INFERENCE_DURATION
 
 router = APIRouter(tags=["ml"])
 
@@ -46,8 +49,10 @@ async def detect_anomalies():
         "day_of_month": dates.dt.day,
     }).values
 
+    start = time.perf_counter()
     iso_scores = models["anomaly_detector"].decision_function(features)
     iso_predictions = models["anomaly_detector"].predict(features)
+    INFERENCE_DURATION.labels(model="anomaly_detector").observe(time.perf_counter() - start)
 
     stats = models["anomaly_stats"]
     z_scores = np.abs((df["amount"].values - stats["amount_mean"]) / stats["amount_std"])
@@ -77,6 +82,8 @@ async def detect_anomalies():
                     is_anomaly=True,
                     z_score=round(float(z_scores[i]), 4),
                 ))
+
+    ANOMALIES_DETECTED.inc(len(results))
 
     # Invalidate advice cache since anomaly data changed
     await cache_invalidate("spendlens:advice:*")

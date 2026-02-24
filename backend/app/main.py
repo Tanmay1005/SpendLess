@@ -75,6 +75,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+from prometheus_fastapi_instrumentator import Instrumentator
+
 from app.routers import advice, anomalies, categorize, health, upload
 
 app.include_router(health.router)
@@ -82,3 +84,5 @@ app.include_router(upload.router)
 app.include_router(categorize.router)
 app.include_router(anomalies.router)
 app.include_router(advice.router)
+
+Instrumentator().instrument(app).expose(app, endpoint="/metrics")

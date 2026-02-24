@@ -4,6 +4,7 @@ from pydantic import BaseModel
 from app.services.cache import ADVICE_TTL, cache_get, cache_set, make_cache_key
 from app.services.db import get_pool
 from app.services.gemini import generate_advice
+from app.utils.metrics import CACHE_HITS, CACHE_MISSES, GEMINI_REQUESTS
 
 router = APIRouter(tags=["advice"])
 
@@ -101,14 +102,19 @@ async def get_advice():
     cache_key = make_cache_key("advice", user_id=1, summary_hash=str(round(total_spending, 2)))
     cached = await cache_get(cache_key)
     if cached:
+        CACHE_HITS.labels(endpoint="advice").inc()
         return AdviceResponse(advice=cached["advice"], cached=True)
+    CACHE_MISSES.labels(endpoint="advice").inc()
 
     # Call Gemini
     try:
         advice_text = await generate_advice(spending_summary)
+        GEMINI_REQUESTS.labels(status="success").inc()
     except RuntimeError as e:
+        GEMINI_REQUESTS.labels(status="error").inc()
         raise HTTPException(status_code=503, detail=str(e))
     except Exception as e:
+        GEMINI_REQUESTS.labels(status="error").inc()
         raise HTTPException(status_code=502, detail=f"Gemini API error: {e}")
 
     # Cache the response
